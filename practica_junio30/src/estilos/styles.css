@@ -1,0 +1,67 @@
+
+.barra{
+    background-color: aqua;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.barra_a{
+    text-align: center;
+    background-color: antiquewhite;
+    grid-column: 2;
+}
+
+.barra_b{
+    text-align: center;
+    background-color: antiquewhite;
+    grid-column: 3;
+}
+
+
+.home{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    gap: 20px;
+}
+
+.a{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.b{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.descripcion_uno{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.imagen_uno{
+    height: 80%;
+    width: 80%;
+    text-align: center;
+}
+
+.imagen_dos{
+    height: 80%;
+    width: 80%;
+    text-align: center;
+}
+
+.pie_pagina{
+    display: flex;
+    background-color: rgb(111, 145, 219);
+    text-align: center;
+    gap: 20px;
+}
+
+.descripcion_dos{
+    grid-row: 5;
+    grid-column: 2;
+}
